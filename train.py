@@ -52,7 +52,7 @@ X_train = pf.encode_categorical(X_train,
 
 # check all dummies were added
 X_train = pf.check_dummy_variables(X_train, config.DUMMY_VARIABLES)
-print(X_train.columns)
+# print(X_train.columns)
 
 # train scaler and save
 scaler = pf.train_scaler(X_train,
